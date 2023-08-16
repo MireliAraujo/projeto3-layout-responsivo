@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Piticas</title>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top " id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand">Piticas</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#carousel" class="nav-link ">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a href="#selecao" class="nav-link">
+                            Coleções
+                        </a>
+                    </li> 
+                    <li class="nav-item fw-bold ">
+                        <a href="#lancamentos" class="nav-link">
+                            Lançamentos
+                        </a>
+                    </li> 
+                    
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100 d-block" src="https://tfcprw.vtexassets.com/assets/vtex.file-manager-graphql/images/33420b11-3a7c-4fe6-a514-9c146008b295___31aaa0a349cd59934fd0c371eb86be02.png"
+                            alt="Imagem aleatórias do carousel">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100 d-block" src="imgs/slide2.webp" alt="Imagem aleatórias do carousel">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100 d-block" src="https://tfcprw.vtexassets.com/assets/vtex.file-manager-graphql/images/dfd279a5-1f06-43cc-b0f8-391c21124cf3___eb309e60adc65efb532a9ecdcbeb7da2.jpg" alt="Imagem aleatórias do carousel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+        </section>
+
+    <section id="selecao" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav flex-column nav-selecao">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#marvel"
+                            class="nav-link fw-bold text-start text-colored active">Marvel</Bbutton>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#dc"
+                                class="nav-link fw-bold text-start text-colored ">DC</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#harry-potter"
+                                class="nav-link fw-bold text-start text-colored ">Harry Potter</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#star-wars"
+                                class="nav-link fw-bold text-start text-colored ">Star Wars</button>
+
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="marvel">
+                            <div class="row" id="container-itens">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/156492-800-auto?v=637976641282130000&width=800&height=auto&aspect=true"
+                                        alt="camisa marvel">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/167442-800-auto?v=637976694201730000&width=800&height=auto&aspect=true"
+                                        alt="colecionaveis marvel">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/156492-800-auto?v=637976641282130000&width=800&height=auto&aspect=true"
+                                        alt="camisa marvel">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/167442-800-auto?v=637976694201730000&width=800&height=auto&aspect=true"
+                                        alt="colecionaveis marvel">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/156492-800-auto?v=637976641282130000&width=800&height=auto&aspect=true"
+                                        alt="camisa marvel">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/167442-800-auto?v=637976694201730000&width=800&height=auto&aspect=true"
+                                        alt="colecionaveis marvel">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="dc">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/172110-800-auto?v=638082645741300000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de camisetas">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/168347-800-auto?v=637976698259430000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/172110-800-auto?v=638082645741300000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de camisetas">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/168347-800-auto?v=637976698259430000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/172110-800-auto?v=638082645741300000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de camisetas">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/168347-800-auto?v=637976698259430000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="harry-potter">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/157731-800-auto?v=637976646910770000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de camisetas">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/167293-800-auto?v=637976692932000000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/157731-800-auto?v=637976646910770000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de camisetas">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/167293-800-auto?v=637976692932000000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/157731-800-auto?v=637976646910770000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de camisetas">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/167293-800-auto?v=637976692932000000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane" id="star-wars">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/158244-800-auto?v=637976649241800000&width=800&height=auto&aspect=true"
+                                        alt="Imagem Bolo">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/162447-800-auto?v=637976669942230000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/158244-800-auto?v=637976649241800000&width=800&height=auto&aspect=true"
+                                        alt="Imagem Bolo">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/162447-800-auto?v=637976669942230000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/158244-800-auto?v=637976649241800000&width=800&height=auto&aspect=true"
+                                        alt="Imagem Bolo">
+                                    <h5 class="text-colored mt-2 fw-bold">Camisetas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100"
+                                        src="https://tfcprw.vtexassets.com/arquivos/ids/162447-800-auto?v=637976669942230000&width=800&height=auto&aspect=true"
+                                        alt="Imagem de item colecionável">
+                                    <h5 class="text-colored mt-2 fw-bold">Colecionáveis</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lancamentos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center text-white">LANÇAMENTOS PITIESPECIAIS </h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded mb-2" src="https://tfcprw.vtexassets.com/arquivos/ids/172970-800-auto?v=638265800758630000&width=800&height=auto&aspect=true"
+                        alt="Foto camiseta guns n' roses">
+                    <h3 class="text-colored fs-4">
+                        Camisetas Guns N' Roses
+                    </h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, perferendis sapiente soluta ex
+                        earum, cumque a sunt neque accusamus id iure at eos? Facilis, quam accusantium. Quod nisi
+                        laboriosam natus.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded mb-2" src="https://tfcprw.vtexassets.com/arquivos/ids/166929-800-auto?v=637976691839470000&width=800&height=auto&aspect=true"
+                        alt="Foto camiseta stranger things demogorgon tour">
+                    <h3 class="text-colored fs-4">
+                        Camiseta Stranger Things Demogorgon Tour
+                    </h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, perferendis sapiente soluta ex
+                        earum, cumque a sunt neque accusamus id iure at eos? Facilis, quam accusantium. Quod nisi
+                        laboriosam natus.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded mb-2"
+                        src="https://tfcprw.vtexassets.com/arquivos/ids/172996-800-auto?v=638265848059330000&width=800&height=auto&aspect=true" alt="Foto camisa metallica">
+                    <h3 class="text-colored fs-4">
+                        Camiseta Metallica
+                    </h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, perferendis sapiente soluta ex
+                        earum, cumque a sunt neque accusamus id iure at eos? Facilis, quam accusantium. Quod nisi
+                        laboriosam natus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fale-conosco" class="pt-5 pb-3">
+        <div class="row">
+            <div class="col-md-3 text-colored ps-5">
+                <h5>Receba nossas <br>
+                    <h4>Novidades</h4>
+                </h5>
+            </div>
+            <div class="col-md-3">
+                <p class="text-white">
+                    Fique por dentro dos últimos <br> lançamentos do mundo Geek!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <form id="form-footer">
+                    <input type="text" name="nome" id="nome" placeholder="nome" required>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                    <button class="btn "
+                        style="background-color: white; color: rgb(255, 123, 0); border: 2px solid rgb(255, 123, 0); border-radius: 15px; width: 100px;">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-colored ps-5 pt-5">
+                <h5>Redes sociais</h5>
+                <i class="bi bi-facebook fs-4 text-white"></i>
+                <i class="bi bi-instagram fs-4 ps-3 pe-3 text-white"></i>
+                <i class="bi bi-whatsapp fs-4 text-white"></i>
+            </div>
+            <div class="col-md-6 text-colored pt-5 ps-5">
+                <h5>Endereço</h5>
+                <p class="text-white">Rua Bootstrap, númeron 88, Html Css, Fortaleza/CE</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

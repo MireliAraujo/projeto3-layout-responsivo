@@ -1,0 +1,99 @@
+/*Css cabeçalho*/
+
+header, #lancamentos{
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+}
+.navbar-brand{
+    font-size: 48px;
+}
+.bi{
+    cursor: pointer;
+}
+
+header h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.linha1 {
+    font-size: 14px;
+}
+.linha1 a{
+    color: #8d8484f6;
+}
+
+.input-group-text{
+    background-color: #000;
+    color: #fff;
+    border-right: none;
+}
+.icon{ 
+    cursor: pointer;
+}
+.linha2 p{
+    font-size: 14px;
+}
+.linha2 a {
+    font-size: 12px;
+}
+.linha2 ul{
+    margin-left: 110px;
+}
+
+
+.linha1 a:hover,
+.text-white:hover,
+.icon:hover,
+.text-colored, 
+span,
+.nav-link,
+.navbar-brand{
+    color: rgb(255, 123, 0);
+}
+
+.nav-selecao button:hover,
+#container-itens h5:hover{
+    color: red;
+}
+
+.text-colored:hover, 
+span:hover,
+.text-white,
+.nav-link:hover,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+@media (max-width: 999px) {
+
+
+    #form-footer input{
+        display: block;
+        margin: 15px 5px;
+    }
+
+    #form-footer button{
+        margin: 0 5px;
+    }
+    #selecao p, #selecao h5 {
+        text-align: center;
+    }
+}
+
+
+
+/*Formulário*/
+#fale-conosco {
+    background-color: #000;
+}
+#form-footer input{
+    background-color: #353333;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#form-footer input::placeholder{
+    color: #757171;
+}
